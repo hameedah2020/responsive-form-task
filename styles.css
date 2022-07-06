@@ -118,8 +118,14 @@ main{
     color:#ff7a7a;
     font-weight:bold;
 }
+ @media  (max-width:900px){
+  .content{
+    width:150%;
+  } 
+}  
 
-@media (max-width:375px){
+
+@media  (max-width:375px){
   body{
 
   background-image: url("images/bg-intro-mobile.png") } 
